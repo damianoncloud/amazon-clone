@@ -5,7 +5,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-
+import Header from './Header.js';
 
 function App() {
   return (
@@ -15,10 +15,11 @@ function App() {
           <Route path="/checkout">
             <h1>Checkout</h1>
           </Route>
-          <Router path="/login">
+          <Route path="/login">
             <h1>Login</h1>
-          </Router>
+          </Route>
           <Route path="/">
+            <Header />
             <h1>HOME PAGE!!!</h1>
           </Route>
         </Switch>
