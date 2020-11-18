@@ -10,10 +10,10 @@ function Header() {
         <nav className="header">
             {/* logo on the left -> img */}
             <Link to='/'>
-            <img 
-                className="header__logo" 
-                src={amazonLogo}
-                alt="Amazon logo" />
+                <img 
+                    className="header__logo" 
+                    src={amazonLogo}
+                    alt="Amazon logo" />
             </Link>
             {/* Search box */} 
             <div className="header__search">
