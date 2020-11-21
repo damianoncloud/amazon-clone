@@ -1,24 +1,12 @@
 
 
 export const initialState = {
-    basket: [
-        {
-            id: '3254354345',
-            title: 'New Apple Ipad Pro 12.9-inch',
-            price: 598.99,
-            rating: 4,
-            image: "https://images-na.ssl-images-amazon.com/images/I/817%2BdXqQ07L._AC_SL1500_.jpg"
-        },
-        {
-            id: '3254354345',
-            title: 'New Apple Ipad Pro 12.9-inch',
-            price: 598.99,
-            rating: 4,
-            image: "https://images-na.ssl-images-amazon.com/images/I/817%2BdXqQ07L._AC_SL1500_.jpg"
-        },
-    ],
+    basket: [],
     user: null, 
 };
+
+export const getBasketTotal = (basket) => 
+    basket?.reduce((amount, item) => item.price + amount, 0);
 
 const reducer = (state, action) => {
     console.log(action);
