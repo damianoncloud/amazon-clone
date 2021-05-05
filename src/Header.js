@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import amazonLogo from './amazon-logo-copia.png';
+import amazonLogo from './logo-ecommerce.png';
 import './Header.css';
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
