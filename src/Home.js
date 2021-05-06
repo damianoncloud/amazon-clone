@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from './Product.js';
-import amazonBanner from './amazon-banner-en.jpg';
+import amazonBanner from './Ecommerce-banner.png';
 import leanStartup from './lean-startup.jpg';
 import irobot from './irobot.jpg';
 import casio from './casio.jpg';
